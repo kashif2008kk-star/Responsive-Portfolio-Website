@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation (Flexbox Layout) -->
+    <header class="navbar">
+        <div class="logo">DevPortfolio</div>
+        <nav class="nav-links">
+            <a href="#hero">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section (Flexbox Layout with Custom Keyframe Animation) -->
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <h1 class="animate-fade-in">Hi, I'm a Web Developer</h1>
+            <p>Building beautiful, modern, and responsive digital experiences.</p>
+            <a href="#portfolio" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <!-- About Section (Flexbox Layout) -->
+    <section id="about" class="about-section">
+        <img src="kashif2.jpeg" alt="Kashif Khan Profile Picture" width="120">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <p>I specialize in crafting high-performance, user-centric web applications. By utilizing structured layout schemas and advanced response systems, I create digital products that perform beautifully on any screen size.</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section (Structured with CSS Grid) -->
+    <section id="portfolio" class="portfolio-section">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>E-Commerce Platform</h3>
+                <p>A full-featured shopping experience engineered with fluid checkout interfaces.</p>
+            </div>
+            <div class="project-card">
+                <h3>Analytics Dashboard</h3>
+                <p>Real-time data visualization layout using dynamic rendering techniques.</p>
+            </div>
+            <div class="project-card">
+                <h3>SaaS Landing Page</h3>
+                <p>A modern product marketing platform designed using mobile-first strategies.</p>
+            </div>
+            <div class="project-card">
+                <h3>Creative Blog</h3>
+                <p>A typography-focused content sharing portal with full component scaling.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section (Flexbox Layout Form) -->
+    <section id="contact" class="contact-section">
+        <h2>Get In Touch</h2>
+        <p>Have an exciting project in mind? Let's build something great together.</p>
+        <form class="contact-form" onsubmit="event.preventDefault();">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 DevPortfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+</body>
+</html>
